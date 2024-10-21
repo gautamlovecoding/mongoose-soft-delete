@@ -15,7 +15,7 @@ A Mongoose plugin that adds soft delete functionality and active/inactive status
 To install the plugin, run:
 
 ```bash
-npm install mongoose-soft-delete
+npm install mongoose-soft-delete-plugin
 ```
 
 ## Usase
