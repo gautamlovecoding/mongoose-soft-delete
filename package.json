@@ -1,5 +1,5 @@
 {
-    "name": "mongoose-soft-delete",
+    "name": "@gautamtheprogrammer/mongoose-soft-delete",
     "version": "1.0.0",
     "description": "A Mongoose plugin that adds soft delete functionality and active/inactive status to your Mongoose models.",
     "main": "lib/softDelete.js",
