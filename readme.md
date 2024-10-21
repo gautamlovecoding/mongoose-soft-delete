@@ -1,4 +1,4 @@
-# mongoose-soft-delete
+# mongoose-soft-delete-plugin
 
 A Mongoose plugin that adds soft delete functionality and active/inactive status to your Mongoose models, enabling efficient data management without permanently removing documents from the database.
 
@@ -23,11 +23,11 @@ After installing the package, you can easily integrate it into your Mongoose sch
 
 **Step 1:** Add the plugin to your schema.
 
-First, define a Mongoose schema and apply the mongoose-soft-delete plugin to it:
+First, define a Mongoose schema and apply the mongoose-soft-delete-plugin plugin to it:
 
 ```bash
 const mongoose = require('mongoose');
-const softDeletePlugin = require('mongoose-soft-delete');
+const softDeletePlugin = require('mongoose-soft-delete-plugin');
 
 // Define your schema
 const userSchema = new mongoose.Schema({
@@ -130,7 +130,7 @@ Here’s a complete example showing how to use the plugin with a User model:
 
 ```bash
 const mongoose = require('mongoose');
-const softDeletePlugin = require('mongoose-soft-delete');
+const softDeletePlugin = require('mongoose-soft-delete-plugin');
 
 // Define schema
 const userSchema = new mongoose.Schema({

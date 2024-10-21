@@ -1,6 +1,6 @@
 {
     "name": "mongoose-soft-delete-plugin",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A Mongoose plugin that adds soft delete functionality and active/inactive status to your Mongoose models.",
     "main": "lib/softDelete.js",
     "scripts": {
