@@ -1,0 +1,25 @@
+{
+    "name": "mongoose-soft-delete",
+    "version": "1.0.0",
+    "description": "A Mongoose plugin that adds soft delete functionality and active/inactive status to your Mongoose models.",
+    "main": "lib/softDelete.js",
+    "scripts": {
+        "test": "echo \"No test specified\" && exit 0"
+    },
+    "keywords": [
+        "mongoose",
+        "plugin",
+        "soft-delete",
+        "active-inactive",
+        "mongodb"
+    ],
+    "author": "Gautam Kumar",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/gautamlovecoding/mongoose-copy-data/issues"
+    },
+    "homepage": "https://github.com/gautamlovecoding/mongoose-copy-data#readme",
+    "dependencies": {
+        "mongoose": "^8.7.2"
+    }
+}
